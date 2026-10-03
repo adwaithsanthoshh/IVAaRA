@@ -1,0 +1,36 @@
+## Environment
+.env
+*.env.local
+
+## Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+.pytest_cache/
+
+## SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+## Node
+node_modules/
+frontend/dist/
+
+## Docker
+mosquitto/data/
+mosquitto/log/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## IDE
+.idea/
+.vscode/
+*.swp
+
+## Logs
+*.log
